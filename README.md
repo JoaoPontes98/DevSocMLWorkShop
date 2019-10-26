@@ -4,6 +4,30 @@ Intro to Computer Vision and Machine Learning
 
 ### Environment Setup
 #### Windows
+#### Installing Python
+* You can download an installer for the most recent Python3.7 version here: [Python 3.7.5 install](https://www.python.org/downloads/release/python-375/)
+* Once the download has completed run the installer
+* When prompted select the check the box for "Add Python3 3.7 to Path"s
+* When prompted click on the option to change the MAX_LENGTH for Paths on your machine
+#### Creating a Virtual Environment
+The first step to starting any Python3 project is creating a virtual environment. This allows us to keep our installs for different projects seperated.
+* Make a directory for the workshop project `> mkdir ml-workshop`
+* Create a virtual environment in your project folder `> python -m venv workshop-env`
+* Activate your new virtual environment `> .\workshop-env\Scripts\activate`
+
+#### Installing Packages
+Within the virtual environment we can then install Tensorflow 2.0, with the virtual environment active we can run `> pip install tensorflow`
+
+We will also want to install Pillow for viewing the images that we will be training the computer to identify, we can install Pillow with the following command `> pip install Pillow`
+
+You may have to updgrade your pip version before you can install Tensorflow 2.0, this can be done with `> python -m pip install --upgrade pip`
+
+#### Install Jupyter Notebook (recommended)
+I'll be using Jupyter Notebook as a code editor for this tutorial, I would recommend you install and use it as well however you may use any IDE/code editor of your choice. To install Jupyter Notebook run the following command with the virtual environment activated
+`> pip install jupyter`
+
+Once you have jupyter installed you can begin running it by entering the command `> jupyter notebook`
+
 #### UNIX (Mac/Linux)
 ##### Part 1 -- Installing Python
 1. Download [HomeBrew](https://brew.sh/#install) package manager. 
