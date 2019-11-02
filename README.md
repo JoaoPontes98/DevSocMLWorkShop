@@ -5,7 +5,7 @@ Intro to Computer Vision and Machine Learning
 ### Environment Setup
 #### Windows
 #### Installing Python
-* You can download an installer for the most recent Python3.7 version here: [Python 3.7.5 install](https://www.python.org/downloads/release/python-375/)
+* You can download an installer for the most recent Python3.7 version here: [Python 3.7.5 install](https://www.python.org/downloads/release/python-375/) (32bit Python versions as well as Python 3.8.x is not supported by Tensorflow)
 * Once the download has completed run the installer
 * When prompted select the check the box for "Add Python3 3.7 to Path"s
 * When prompted click on the option to change the MAX_LENGTH for Paths on your machine
