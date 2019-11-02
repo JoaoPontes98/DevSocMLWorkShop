@@ -44,5 +44,7 @@ Once you have jupyter installed you can begin running it by entering the command
 ##### Part 3 -- Installing Tensor Flow
 6. While your virtual environment is active, run the command `$ pip install --upgrade tensorflow` 
 ##### Part 4 -- Install the Jupyter Digital Notebook
-7. In you virtual environment, run the command `$ python3 -m pip install jupyter`
+7. In your virtual environment, run the command `$ pip install jupyter`
 8. To activte your notebook, run the command `$ jupyter notebook`
+##### Part 5 -- Install Pillow
+9. In your virtual environment, run the command `$ pip install Pillow`
