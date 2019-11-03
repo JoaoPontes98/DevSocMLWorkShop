@@ -42,9 +42,12 @@ Once you have jupyter installed you can begin running it by entering the command
 6. To activate the virtual environment, run the command `$ source <directory_name>/bin/activate`. 
   - You know your virtual environment is properly activated when you see (<directory_name>) at the beginning of your command line.
 ##### Part 3 -- Installing Tensor Flow
-6. While your virtual environment is active, run the command `$ pip install --upgrade tensorflow` 
+THE FOLLOWING STEPS COULD BREAK YOUR OS IF NOT DONE ON A VIRTUAL ENVIRONMENT
+
+6. While your virtual environment is active, run the command `$ pip install --upgrade pip` 
+7. While your virtual environment is active , run the command `$ pip install tensorflow` 
 ##### Part 4 -- Install the Jupyter Digital Notebook
-7. In your virtual environment, run the command `$ pip install jupyter`
-8. To activte your notebook, run the command `$ jupyter notebook`
+8. In your virtual environment, run the command `$ pip install jupyter`
+9. To activte your notebook, run the command `$ jupyter notebook`
 ##### Part 5 -- Install Pillow
-9. In your virtual environment, run the command `$ pip install Pillow`
+10. In your virtual environment, run the command `$ pip install Pillow`
